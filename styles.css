@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.tent {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+.tent img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.tent p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.backpack {
+    display: inline-block;
+    margin: 20px;
+    width: 150px;
+}
+
+.backpack img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.backpack p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clothing {
+    display: inline-block;
+    margin: 20px;
+    width: 150px;
+}
+
+.clothing img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.clothing p {
+    font-size: 18px;
+    font-weight: bold;
+}
