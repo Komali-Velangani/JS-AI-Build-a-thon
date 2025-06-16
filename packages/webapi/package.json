@@ -1,0 +1,21 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "Backend API for chat interface",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Komali Velangani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Komali-Velangani/JS-AI-Build-a-thon.git"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0"
+  }
+}
